@@ -1,12 +1,12 @@
 {
     "id": "io.supernova.documentation-main",
-    "name": "Documentation",
+    "name": "Documentation (I)",
     "description": "Base Documentation Exporter",
     "author": "Jiri Trecak",
     "organization": "Supernova",
     "source_dir": "src",
     "assets_dir": "assets",
-    "version": "1.13",
+    "version": "1.13.95",
     "usesBrands": false,
     "config": {
         "sources": "sources.json",
@@ -37,6 +37,27 @@
                 "label": "Intercom API key",
                 "description": "Add Intercom to your documentation site by providing an API key",
                 "category": "Analytics"
+            },
+            {
+                "key": "accentColor",
+                "type": "color",
+                "category": "Design",
+                "description": "Accent description",
+                "label": "Accent color"
+            },
+            {
+                "key": "backgroundColor",
+                "type": "color",
+                "category": "Design",
+                "description": "Background color desc",
+                "label": "Backgroun color"
+            },
+            {
+                "key": "blackColor",
+                "type": "color",
+                "category": "Design",
+                "description": "Black color desc",
+                "label": "Black color"
             },
             {
                 "key": "headerLogo",
